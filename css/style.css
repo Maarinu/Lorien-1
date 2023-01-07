@@ -1,0 +1,324 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300&family=Yeseva+One&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+/*------HEADER------*/
+
+header{
+    background-color: rgb(13, 114, 109);
+    position: sticky;
+    top: 0;
+    /*display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;*/
+
+}
+
+header .info{
+    display: block;
+    position: absolute;
+    float: left;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 4px 16px;
+    z-index: 100;
+}
+
+
+
+header .logo-lorien{
+    color: white;
+    font-size: 40px; 
+    font-style: normal;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    
+    
+}
+
+
+
+
+
+header nav ul{
+    list-style: none;
+    
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-right: 15px;
+    padding-left: 10px;
+    
+}
+
+
+
+header nav ul li a{
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    color: white;
+    line-height: 35px;
+    font-size: 15px;
+    
+}
+
+
+/*------MAIN------*/
+
+.hero {
+    width: 100%;
+    height:80vh ;
+    text-align: center;
+    /*background-image: url("../img/arwen.jpeg");*/
+    background: linear-gradient(white, rgba(0, 0, 0, 0.089)), url(../img/arwen.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    
+}
+
+.hero h2{
+    color: black;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 50px;
+    background: linear-gradient(rgb(13, 114, 109), white, white);
+    
+}
+.hero p {
+    color: white;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 30px ;
+    margin-top:  20px;
+    margin-bottom: 30px;
+
+}
+
+.hero input{
+    background: linear-gradient(black, grey, white);
+    width: 150px;
+    height: 50px;
+}
+.productos .productos-contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+}
+
+.productos h2{
+    background-color: rgb(13, 114, 109);
+    color: white;
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+    padding: 10px;
+    transition: 3s;
+}
+
+.productos h2:hover{
+    transform: rotateX(360);
+}
+.productos .productos-contenedor div{
+    border: 3px solid rgb(13, 114, 109); 
+    width: 300px;
+    height: 480px;
+    text-align: center;
+    background-color: rgb(13, 114, 109);
+    margin: 20px;
+
+}
+
+.productos div h3{
+    color:white;
+    font-family: 'Yeseva One', cursive;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.productos div a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-family:'Ubuntu', sans-serif;
+    background-color: rgb(3, 77, 73);
+    padding: 5px;
+    
+}
+.productos div img {
+    height: 400px;
+    width: 294px;
+    transition: 3s;
+}
+
+.productos div img:hover{
+    transform: rotateX(360deg);
+}
+/*----GALERIA DE PRODUCTOS----*/
+
+.galeria-contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    flex-wrap: wrap;
+    
+}
+
+.galeria-contenedor div{
+    /*border: 3px solid rgb(13, 114, 109); */
+    width: 300px;
+    height: 480px;
+    text-align: center;
+    margin: 40px;
+    transition:3s;
+    
+}
+
+.galeria-contenedor div:{
+    transform: scale(1.1);
+}
+
+
+.galeria-contenedor img{
+    border: 3px solid rgb(13, 114, 109);
+    height: 400px;
+    width: 294px;
+    transition: 3s;
+    
+}
+
+.galeria-contenedor img:hover{
+    transform: scale(1.1);
+
+}
+
+
+
+
+/*----GIFT CARD----*/
+.gift-contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.gift-contenedor img{
+    width: 300px;
+    height: 490px;
+    padding: 10px;
+    
+    
+}
+
+.gift-contenedor div {
+    border: 4px solid rgb(13, 114, 109); 
+    width: 300px;
+    height: 490px;
+    text-align: center;
+    background-color: rgb(13, 114, 109);
+    margin: 30px;
+    
+}
+
+.gift-contenedor div h3{
+    font-family: 'Yeseva One', cursive;
+    font-size: 15px;
+    margin: 20px;
+}
+
+
+/*-----ACERCA DE MI----*/
+.mariel{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    
+    
+    
+
+}
+
+.mariel img{
+    width: 300px;
+    height: 400px;
+    background-position: center;
+}
+
+.mariel div{
+    width: 500px;
+}
+
+.mariel h2{
+    text-align: center;
+    font-family: 'Yeseva One', cursive;
+    font-size: 50px;
+    color: black;
+    
+
+}
+
+.mariel p{
+    text-align: center;
+    font-family:'Ubuntu', sans-serif;
+    font-size: large;
+    color: black;
+}
+
+/*------FOOTER-------*/
+
+footer{
+    background-color: rgb(13, 114, 109);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items:flex-end;
+    padding: 10px;
+}
+
+footer div img {
+    width: 50px;
+    height: 50px;
+}
+
+/*-----MEDIA QUERY-----*/
+@media screen and (max-width:630px) {
+    .mariel {
+        flex-direction: column;
+    }
+    
+}
+    
+@media screen and (max-width:580px) {
+    header{
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width:630px) {
+    .mariel p{
+        text-align: center;
+    }
+    
+}
