@@ -1,86 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/style.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <header>
-      <div class="info">
-        <p>Abona con AHORA 3 Y 6. Envío gratis a partir de $5.000 en Córdoba y alrededores.</p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css" />
+  <title>Contacto</title>
+</head>
+
+<body>
+  <header>
+    <div class="info">
+      <p>Abona con AHORA 3 Y 6. Envío gratis a partir de $5.000 en Córdoba y alrededores.</p>
     </div>
     <div class="logo-lorien">
-    <h1>Lorien</h1>
+      <h1>Lorien</h1>
     </div>
-      <nav>
-        <!-- Lista Desordenada-->
-        <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="./productos.html">Productos</a></li>
-          <li><a href="./giftcard.html">Gift Card</a></li>
-          <li>
-            <a href="./acercaDeNosotros.html">Acerca de Nosotros</a>
-          </li>
-          <li><a href="./contacto.html">Contactos</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section>
-        <form action="" method="" enctype="">
+    <nav>
+      <!-- Lista Desordenada-->
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="./productos.html">Productos</a></li>
+        <li><a href="./giftcard.html">Gift Card</a></li>
+        <li>
+          <a href="./acercaDeNosotros.html">Acerca de Nosotros</a>
+        </li>
+        <li><a href="./contacto.html">Contactos</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <form action="" method="" enctype="">
+        <div>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre">
+        </div>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido">
+        <div>
+          <label for="correo">Email:</label>
+          <input type="email" id="correo">
+        </div>
+        <div>
+          <label for="contrasena">Contraseña:</label>
+          <input type="password" id="contrasena">
+        </div>
+        <div>
+          <h3>Genero:</h3>
           <div>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre">
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="genero">
+            <label for="femenino">Femenino</label>
+            <input type="radio" name="genero">
+            <label for="otro">Otro</label>
+            <input type="radio" name="genero">
           </div>
-            <label for="apellido">Apellido:</label>
-            <input type="text" id="apellido">
-          <div>
-            <label for="correo">Email:</label>
-            <input type="email" id="correo">
-          </div>
-          <div>
-            <label for="contrasena">Contraseña:</label>
-            <input type="password" id="contrasena">
-          </div>
-          <div>
-            <h3>Genero:</h3>
-            <div>
-              <label for="masculino" >Masculino</label> 
-              <input type="radio" name="genero">
-              <label for="femenino">Femenino</label>
-              <input type="radio" name="genero">
-              <label for="otro">Otro</label>
-              <input type="radio" name="genero">
-            </div>
-          </div>
-          <div>
-            <select name="" id="">Estado Civil
-              <option value="casado">Casado</option>
-              <option value="soltero">Soltero</option>
-              <option value="viudo">Viudo</option>
-            </select>
-          </div>
-          <div>
-            <h3>Desea recibir el Newsletter?</h3>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-          </div>
-          <div>
-            <input type="submit">
-            <input type="reset">
-          </div>
-      </section>
-    </main>
-    <footer>
-      <div class="redes-sociales">
-        <a href="https://www.facebook.com/people/Lorien/100066542207697/" target="_blank">
+        </div>
+        <div>
+          <select name="" id="">Estado Civil
+            <option value="casado">Casado</option>
+            <option value="soltero">Soltero</option>
+            <option value="viudo">Viudo</option>
+          </select>
+        </div>
+        <div>
+          <h3>Desea recibir el Newsletter?</h3>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+          <input type="submit">
+          <input type="reset">
+        </div>
+    </section>
+  </main>
+  <footer>
+    <div class="redes-sociales">
+      <a href="https://www.facebook.com/people/Lorien/100066542207697/" target="_blank">
         <img src="../img/facebook.png" alt="icono de facebook"></a>
-        <a href="https://www.instagram.com/lorien.__/?hl=es" target="_blank">
+      <a href="https://www.instagram.com/lorien.__/?hl=es" target="_blank">
         <img src="../img/instagram.png" alt="icono de instagram"> </a>
-    <img src="../img/whatsapp.png" alt="icono de whatsapp">
+      <img src="../img/whatsapp.png" alt="icono de whatsapp">
     </div>
   </footer>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
